@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>table tags</title>
+   <style>
+    table,
+     th,
+     td{
+        border: 2px solid black;
+        background-color:aqua;
+        border-collapse: collapse;
+        color: black;
+    }
+   </style>
+    </head>
+    <tbody>
+        <h1>NORMAL TABLE</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>NAME</th>
+                   <th>AGE</th>
+                    <th>ADDRES</th>
+                 </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>madhuri</td>
+            <td>24</td>
+            <td>khopoli</td>
+          </tr>
+          <tr>
+            <td>disha</td>
+            <td>22</td>
+            <td>mumbai</td>
+          </tr>
+          <tr>
+            <td>priya</td>
+            <td>24</td>
+            <td>pune</td>
+          </tr>
+
+            </tbody>
+        </table>
+    
+        <h1> NORMAL TO COLSPAN TABLE</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>NAME</th>
+                   <th>AGE</th>
+                    <th>ADDRES</th>
+                 </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td colspan="2">madhuri</td>
+            <td>24</td>
+            <td rowspan="3">khopoli</td>
+          </tr>
+          <tr>
+          <td>22</td>
+            <td>khopoli</td>
+        
+          </tr>
+          <tr>
+
+          <td>34</td>
+          </tr>
+
+            </tbody>
+        </table>
+    
+        <h1>NORMAL to rowspan TABLE</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>NAME</th>
+                   <th>AGE</th>
+                    <th>ADDRES</th>
+                 </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>madhuri</td>
+            <td>24</td>
+            <td rowspan="2">khopoli</td>
+          </tr>
+          <tr>
+            <td>disha</td>
+            <td>22</td>
+            <td>mumbai</td>
+          </tr>
+          <tr>
+            <td>priya</td>
+            <td>24</td>
+            <td>pune</td>
+          </tr>
+
+            </tbody>
+        </table>
+    
+    
+    </html>
