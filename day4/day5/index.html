@@ -1,104 +1,111 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-   <title>table tags</title>
-   <style>
-    table,
-     th,
-     td{
-        border: 2px solid black;
-        background-color:aqua;
-        border-collapse: collapse;
-        color: black;
-    }
-   </style>
-    </head>
-    <tbody>
-        <h1>NORMAL TABLE</h1>
-        <table>
-            <thead>
-                <tr>
-                   <th>NAME</th>
-                   <th>AGE</th>
-                    <th>ADDRES</th>
-                 </tr>
-    </thead>
-    <tbody>
-          <tr>
-            <td>madhuri</td>
-            <td>24</td>
-            <td>khopoli</td>
-          </tr>
-          <tr>
-            <td>disha</td>
-            <td>22</td>
-            <td>mumbai</td>
-          </tr>
-          <tr>
-            <td>priya</td>
-            <td>24</td>
-            <td>pune</td>
-          </tr>
+    <title>Day 5</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            color: red;
+            background-color: chartreuse;
+        }
 
-            </tbody>
-        </table>
-    
-        <h1> NORMAL TO COLSPAN TABLE</h1>
-        <table>
-            <thead>
-                <tr>
-                   <th>NAME</th>
-                   <th>AGE</th>
-                    <th>ADDRES</th>
-                 </tr>
-    </thead>
-    <tbody>
-          <tr>
-            <td colspan="2">madhuri</td>
-            <td>24</td>
-            <td rowspan="3">khopoli</td>
-          </tr>
-          <tr>
-          <td>22</td>
-            <td>khopoli</td>
+        th {
+            color:red;
+        }
+
+        .c1{
+            color: red;
+            border: 1px solid black;
+            background-color: green;
+        }
+
+        #id{
+            color: blue;
+            background-color: gold;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>index</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">1 </td>
+                <td rowspan="3">Mumbai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>madhuri</td>
+            </tr>
+            <tr>
+                <td colspan="2">3 </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <p><span style="border: 1px solid black;">p block level element but reduce weight thats why use span</span> </p>
+    <label style="border: 1px solid black;">Testing inline border</label>
+ <div style="width: 600px;">
+    <h2 style="border: 1px solid black;background-color: aqua">Testing simple border</h2>
+    <h2 style="border: 1px dotted black;background-color: aqua">Testing  dottted border</h2>
+    <h2 style="border: 1px dashed black;background-color: aqua">Testing  dashed border</h2>
+    <h2 style="border: 1px double black;background-color: aqua">Testing  doublr border</h2>
+    <h2 style="border: 2px groove blue;background-color: aqua">Testing groove border</h2>
+    <h2 style="border: 2px ridge blue;background-color: aqua">Testi;ng ridge border</h2>
+    <h2 style="border: 2px inset blue;background-color: aqua">Testing inset  border</h2>
+    <h2 style="border: 2px outset blue;background-color: aqua">Testing  outset border</h2>
+  </div>
+  <div style="height: 500px; width: 400px;border: 1px;">
+    <button style="border: none;color: green;">Click me!</button>
+    <input placeholder="Enter your name " style="border: none; outline: none;" />/.
+    <ul>
+        <li>madhuri</li>
+        <li>priyanka</li>
+        <li>anita</li>
+
+    </ul>
+
+    <ol>
+        <li>11111</li>
+        <li>22222</li>
+        <li>33333</li>
+        <li>444444</li>
+
+    </ol>
+
+
+    <dl>
+        <dt>test 1</dt>
+        <dd>cogratulation madhuri 91 marks</dd>
+        <dt>test 2</dt>
+        <dd>cogratulation madhuri 91 marks</dd>
         
-          </tr>
-          <tr>
+    </dl>
 
-          <td>34</td>
-          </tr>
 
-            </tbody>
-        </table>
-    
-        <h1>NORMAL to rowspan TABLE</h1>
-        <table>
-            <thead>
-                <tr>
-                   <th>NAME</th>
-                   <th>AGE</th>
-                    <th>ADDRES</th>
-                 </tr>
-    </thead>
-    <tbody>
-          <tr>
-            <td>madhuri</td>
-            <td>24</td>
-            <td rowspan="2">khopoli</td>
-          </tr>
-          <tr>
-            <td>disha</td>
-            <td>22</td>
-            <td>mumbai</td>
-          </tr>
-          <tr>
-            <td>priya</td>
-            <td>24</td>
-            <td>pune</td>
-          </tr>
+    <p class="c1">Testing class</p>
 
-            </tbody>
-        </table>
-    
-    
-    </html>
+    <h1 class="c1">Testing class again</h1>
+
+    <p id="id">Testing id </p>
+
+  </div>
+</body>
+
+</html>
