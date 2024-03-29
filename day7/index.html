@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>day 7</title>
+        <style>
+            input[type='checkbox'] {
+            accent-color: green;
+            }
+            input[type='radio']{
+                accent-color: red;
+            }
+      select{
+        color: red;
+        background-color:blue;
+      }
+      button{
+        background-color: blue;
+      }
+      button{
+        background-color: green;
+      }
+
+        </style>
+    </head>
+    <body style="background-color: gray;"">
+<form>
+        <h1><mark>The radio button use only one value can be selected </mark></h1>
+        <input type="radio" id="html" name="html" value="html">
+        <label for="html">html</label><br>
+        <input type="radio" id="css" name="html" value="css">
+        <label for="css">css</label><br>
+        <input type="radio" id="js" name="html" value="js">
+        <label for="js">js</label>
+        <br>
+        <h1><mark>The checkboxs use to select multiple value at a time</mark></h1>
+        <input type="checkbox" id="checked" name="checked" value="checked">
+        <label for="checked">checked</label><br>
+        <input type="checkbox" style="color: green;" id="checked" name="checked" value="checked">
+        <label for="checked">agree</label><br>
+<label><mark>textarea with rows and colomn </mark></label>
+        <textarea rows="5"colomn="50">when the user want multiple input line then his use textarea</textarea>
+        <br>
+        <br>
+        <input size="10" placeholder="size 10">
+        <input size="" placeholder="by default 22">
+    </form>
+    <br><br><br>
+    <label for="car"><mark>CAR NAME PLZ SELECT ANY ONE:::</mark></label>
+   <select id="car" value="car">
+    <option value="honda">honda</option>
+    <option value="hero">hero</option>
+    <option value="shift">shift</option>
+   </select>
+   <br><br><br>
+   <form style="background-color:whitesmoke ; height: 200px; width: 300px; border: 1px;">
+    <label for="name">NAME:</label>
+    <input type="text" placeholder="entr your name"><br><br><br>
+    <label for="password">PASSWORD;</label>
+    <input type="password" placeholder="enter your password"><br><br><br>
+    <button onclick="alert('welcomet to facebook')">login in..</button><br><br>
+    <button type="submit"><b style="background-color: blue;">create new account</b></button>
+   </form>
+    </body>
+</html>
