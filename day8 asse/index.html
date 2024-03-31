@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>day 8 practice</title>
+        <style>
+            #H{
+                height: 100px;
+                width: 200px;
+                border: 1px;
+                background-color: gray;
+            }#H:hover{
+        
+                border: 10px double aqua;
+                width: 200px;
+
+            }
+            #P:valid{
+           background-color: green;
+            }
+            #P:invalid{
+           background-color: red;
+            }
+        </style>
+    </head>
+    <body style="background-color: antiquewhite;">
+ <form>
+    <h1>fieldset use group of data and legend use caption of  fieldset element</h1>
+    <fieldset>
+        <legend>FORM INFORMATION</legend>
+    <label for="name">Name</label>
+    <input type="text"  id="name" value="name">
+    <br/>
+    <br/>
+    <label>Password</label>
+    <input type="password" id="password" value="password">
+    <input type="submit" >
+    <input type="text" size="">
+    <input type="text" size="20">
+    <h1>maxlength number of chara allows in input for otp </h1>
+    <input maxlength="6">
+<h2>min and max attribute use for example  eligible student passout year only 2020 to 2024</h2>
+<form onsubmit="">
+    <input type="number" min="2020" max="2024">
+    <input type="submit">
+    <h1 id="H" >hover example</h1>
+    <input id="P" type="text" pattern="\w{2,12}" required>
+    <input  id="P" type="password" pattern="\wds{1,2,@,m}"
+    <input type="submit">
+    <button type="submit">submit</button>
+</form>
+    </fieldset>
+    
+ </form>
+ <h3>Title attributejust hover display tooltip</h3>
+ <span title="you justnhover on display tooltip">title use</span>
+<p title="enter paraghraph">hello title attibute</p>
+    <input>
+    <input autofocus>
+    <input>
+
+    <br/>    <br/>    <br/>
+    <h2>novalidate attibute</h2>
+<form novalidate>
+    <label>Name</label>
+    <input type="text" required>
+    <label>password</label>
+    <input type="password" required>
+    <input type="submit">
+</form><br/><br/>
+<canvas id="myCanvas"
+height:"100px"
+ width="200px" 
+ style="border: 1px solid red;background-color: aqua;"></canvas>
+<p style="height: 200px; width: 200px;border-radius: 50%;background-color: red;">circle
+    </p>
+    </body>
+</html>
